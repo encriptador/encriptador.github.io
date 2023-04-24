@@ -1,0 +1,23 @@
+
+.contactoSection{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    justify-content: center;
+    max-width: 1600px;
+    min-width: 300px;
+}
+.contactoSection__p{
+    font-family: var(--mainFont);
+    font-size: .7rem;
+    color: var(--grayFont);
+}
+.contactoSection__p__a{
+    text-decoration: none;
+    color: var(--grayFont);
+}
+.contactoSection__p__a__img{
+    width: .7rem;
+    margin-left: .8rem;
+}

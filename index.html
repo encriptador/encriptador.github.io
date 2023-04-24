@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/aluraIcon.jpeg   " />
+    <title>Encriptador ONE Oracle Next Education</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize .css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/contenedorGeneral.css">
+
+    <!-- bloques -->
+    <link rel="stylesheet" href="styles/bloques/sectionInput.css">
+    <link rel="stylesheet" href="styles/bloques/secionOutput.css">
+    <link rel="stylesheet" href="styles/bloques/contacto.css">
+
+    <!-- elementos generales -->
+    <link rel="stylesheet" href="styles/elementosGenerales/botones.css">
+
+    <!-- elementos de sectionImput -->
+    <link rel="stylesheet" href="styles/sectionInput__elementos/input.css">
+    <link rel="stylesheet" href="styles/sectionInput__elementos/logo.css">
+    <link rel="stylesheet" href="styles/sectionInput__elementos/spanAlerta.css">
+
+    <!-- elementos de sectionOutput -->
+    <link rel="stylesheet" href="styles/sectionOutput__elementos/imgDivNoHayTexto.css">
+    <link rel="stylesheet" href="styles/sectionOutput__elementos/letrasStyle.css">
+
+</head>
+<body>
+    <main class="contenedorGeneral">
+
+        <section class="sectionButtonsInput">
+            <img class="logo logo__superiorIzquierdo" src="/assets/LogoaluraLogo.png" alt="">
+            <textarea id="textArea"  class="textArea" pattern="[a-z]{1,15}  " placeholder="Ingrese texto aqui" name="" id="" cols="30" rows="10"></textarea>
+            <span class="span"><img class="span__img" src="/assets/exclamacionLogo.png" alt="">Solo letras minúsculas, sin acentos y max: 500 caracteres.</span>
+            <div class="sectionButtonsInput__divButtons">
+                <button href = "#divNoHayTexto" id="encriptar" class="button button__azul button__marginRight button__marginBotton">Encriptar</button>
+                <button href = "#divNoHayTexto" id="desencriptar" class="button button__celeste">Desencriptar</button>
+            </div>
+        </section>
+    
+        <section class="secctionOutput" id="sectionOutput">
+
+            <div id="divNoHayTexto" class="secctionOutput__divNoHayTexto secctionOutput__divNoHayTexto--active ">
+                <img class="imgdivNoHayTexto" src="/assets/Muñeco.png" alt="">
+                <p id="font24px" class="font24px">Ningun mensage fue encontrado</p>
+                <p id="font16px" class="font16px">Ingresa el texto que deseas encriptar o desencriptar.</p>
+            </div>
+
+            <div id="muestraValueEncriptado" class="secctionOutput__valueEncriptado" >
+                <p id="textoSalida" class="font24pxGray"></p>
+                <button id="copiar" class="button button__blanco">Copiar</button>
+            </div>
+            
+        </section>
+
+    </main>
+    
+        <section class="contactoSection">
+            <p class="contactoSection__p">by Jean Pierre Veliz 
+                <a class="contactoSection__p__a" target="_blank" href="https://www.linkedin.com/in/jean-pierre-veliz/">
+                <img class="contactoSection__p__a__img" src="/assets/Icon-LinkedIn.webp" alt=""> linkedin</a> 
+                <a class="contactoSection__p__a" target="_blank" href="https://github.com/jean-pi">
+                <img class="contactoSection__p__a__img" src="/assets/github-mark.png" alt=""> GitHub</a></p>
+        </section>
+
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

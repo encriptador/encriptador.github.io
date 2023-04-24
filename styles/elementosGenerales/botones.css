@@ -1,0 +1,51 @@
+
+.button{
+    width: 19rem;
+    height: 4rem;
+    border-radius: 24px;
+    font-size: 16px;
+    border: 1px solid var( --mainColor);
+    font-family: var(--mainFont);
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+}
+
+@media(max-width: 1124px){
+    .button{
+        width: 100%;
+    } 
+}
+
+.button__marginRight{
+    margin-right: 2rem;
+}
+@media(max-width: 1124px){
+    .button__marginRight{
+        margin-right: 0rem;
+    }
+}
+
+.button__marginBotton{
+    margin-bottom: 0rem;
+}
+@media(max-width: 1124px){
+    .button__marginBotton{
+        margin-bottom: 1.1rem;
+    }
+}
+
+.button__azul{
+    background-color:  var( --mainColor);
+    color: var(--secondColor);
+}
+
+.button__celeste{
+    border: 1px solid  var(--mainColor);
+    background-color: var(--colorFondo);
+}
+.button__blanco{
+    border: 1px solid  var(--mainColor);
+    background-color: var(--thirdColor);
+}
+

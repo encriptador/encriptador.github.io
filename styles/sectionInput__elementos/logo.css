@@ -1,0 +1,17 @@
+
+.logo{
+    width: 7rem;
+    height: auto;
+}
+
+.logo__superiorIzquierdo{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+@media(max-width: 769px){
+    .logo__superiorIzquierdo{
+        top: 2rem;
+        left: -1rem;
+    }
+}

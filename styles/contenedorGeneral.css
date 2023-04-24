@@ -1,0 +1,18 @@
+.contenedorGeneral{
+    display: flex;
+    justify-content: center;
+    max-width: 1600px;
+    min-width: 300px;
+    margin: auto;
+    padding: 0 2rem;
+    background-color: var(--colorFondo);
+    
+}
+
+@media(max-width: 769px){
+    .contenedorGeneral{
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+}
+

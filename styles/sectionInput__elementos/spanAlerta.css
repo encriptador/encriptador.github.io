@@ -1,0 +1,12 @@
+.span{
+    font-family: var(--mainFont);
+    display: flex;
+    align-items: center;
+    font-size: .8rem;
+    margin: 1rem 1rem 1rem 0;
+}
+.span__img{
+    margin-right: .5rem;
+    width: .8rem;
+    height: .8rem;
+}

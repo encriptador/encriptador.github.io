@@ -1,0 +1,29 @@
+/* 
+metodologia ben----- BLOQUES -- MODIFICADORES --- ELEMENTOS */ 
+
+/* archivos de bloques__ elementos que puedo reutilizar clases que no esten ligadas NO LOGO HEADER NI ESO
+puedo colocar un bloque dentro de un bloque */
+/* ELEMENTOS cada elementos de los blouqes card__text */
+/* MODIFICADORES__  button__verde  button__pequeño etc */
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--colorFondo);
+}
+main{
+
+}
+
+:root{
+    --colorFondo:#F3F5FC;
+    --mainColor: #0A3871;
+    --secondColor:#E5E5E5;
+    --thirdColor:#FFFFFF;
+    --fourthColor:#343A40;
+    --mainFont:'Inter', sans-serif;
+    --grayFont: #495057;
+}

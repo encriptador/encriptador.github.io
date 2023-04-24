@@ -1,0 +1,21 @@
+
+.textArea{
+    border: none;
+    background-color: var(--colorFondo);
+    resize: none;
+    max-width: 40.6rem;
+    min-width: 300px;
+    height: 27rem;
+    outline: 0;
+    font-family: var(--mainFont);
+    color: var(--mainColor);
+    font-size: 1.3rem;
+}
+.textArea::placeholder{
+    font-family: var(--mainFont);
+    color: var(--mainColor);
+    font-size: 1.3rem;
+}
+.textArea:focus{
+    outline: 0;
+}
